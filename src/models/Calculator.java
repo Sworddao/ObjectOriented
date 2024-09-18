@@ -43,11 +43,6 @@ public class Calculator {
     }
 
     public double divide() {
-        if (num2 != 0) {
-            return num1 / num2;
-        } else {
-            System.out.println("Error: Division by zero is not allowed.");
-            return 0;
-        }
+        return num1 / num2;
     }
 }
